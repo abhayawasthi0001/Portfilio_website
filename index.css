@@ -1,0 +1,294 @@
+body {
+    margin: 0;
+    padding: 0%;
+    background-color: rgb(0, 0, 43);
+}
+
+/* -----------------------------------the-nav_code------------------------------------------ */
+.main_nav {
+    background-color: rgb(3, 3, 134);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.left_div {
+    color: white;
+    font-size: 25px;
+    margin: 0;
+    padding: 0%;
+    padding-top: 17px;
+    font-weight: bold;
+}
+
+.right_div {
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.right_div>ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around
+}
+
+.right_div>ul>li {
+    margin-left: 27px;
+    padding: 0%;
+    cursor: pointer;
+}
+
+.right_div>ul>li:hover {
+    font-size: 18px;
+    color: rgb(137, 137, 231);
+    ;
+}
+/* --------------------------------------the-nav_code------------------------------------- */
+
+/* --------------------------------------the-header_code---------------------------------- */
+.main_header {
+    width: 95%;
+    height: 27rem;
+    color: black;
+    background-color: white;
+    align-items: center;
+    padding: 0%;
+    margin-left: 2.5%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: 4px solid rgb(65, 65, 248);
+}
+
+.main_header>img {
+    height: 70%;
+    width: 20%;
+    padding: 5px 5px;
+    border-radius: 30px;
+    box-shadow: 10px 5px 15px black;
+}
+
+.main_header>h1 {
+    font-size: 37px;
+    white-space: pre;
+}
+/* -------------------------------the-header_code------------------------------------------------ */
+
+/* --------------------------the-about-section_code---------------------------------------------- */
+.About {
+    width: 95%;
+    margin-left: 2.5%;
+    margin-top: 70px;
+}
+
+.About>h1 {
+    color: white;
+    font-size: 37px;
+}
+
+.About p {
+    color: white;
+    font-size: 27px;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    padding: 30px 0px;
+}
+/* ------------------------the-about-section_code-------------------------------------------- */
+
+/* ---------------------------------------the-skill-section_code---------------------------- */
+.skills_section {
+    color: white;
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 2.5%;
+    border-bottom: 2px solid white;
+}
+
+.skills_h1 {
+    color: white;
+    font-size: 37px;
+    margin-left: 2.5%;
+}
+
+.skills_section>ul>li {
+    font-size: 27px;
+}
+
+.skills_section>img {
+    height: 23rem;
+    width: 27rem;
+}
+/* -------------------------------------the-about-section_co----------------------------------- */
+
+/* ----------------------------------the-project-section_code---------------------------------- */
+.projects_div {
+    width: 95%;
+    color: white;
+    font-size: 17px;
+    font-weight: 100;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 2.5%;
+}
+
+.project_top_heading,
+.project_heading {
+    color: white;
+    font-size: 27px;
+    margin-left: 2.5%;
+
+}
+
+.projects_div>video {
+    width: 45%;
+    height: 22rem;
+    margin-left: 5%;
+    border: 4px solid rgb(235, 73, 52);
+}
+/* --------------------------------the-project-section_code------------------------------ */
+
+embed {
+    width: 60%;
+    margin-left: auto;
+    height: 77rem;
+    border: 4px solid rgb(65, 65, 248);
+}
+
+.contact {
+    font-size: 20px;
+    color: rgb(255, 255, 16);
+    margin-left: 5%
+}
+
+.copyright {
+    color: white;
+    font-size: 27px;
+}
+
+/* ----------------------------------media-query_code---------------------------- */
+@media only screen and (max-width: 1100px) {
+    .main_header>img {
+        height: 75%;
+        width: 30%;
+    }
+
+    .main_header>h1 {
+        font-size: 27px;
+        white-space: pre;
+    }
+
+}
+
+.three_line,
+.ul_data,
+.cross {
+    display: none;
+}
+
+
+@media only screen and (max-width: 700px) {
+    .three_line {
+        height: 37px;
+        width: 37px;
+        display: inline-block;
+        margin-top: 7px;
+    }
+
+    .ul_data,
+    .cross {
+        display: none !important;
+    }
+
+    .ul_display {
+        list-style: none;
+        display: flex;
+        flex-direction: column !important;
+        justify-content: space-around;
+        position: absolute;
+        top: 38px;
+        right: 0px;
+        background-color: rgb(3, 3, 134);
+        padding: 40px 42%;
+    }
+
+    .main_nav {
+        border-bottom: 2px solid rgb(228, 228, 228);
+    }
+
+    .left_div {
+        font-weight: bold;
+        padding: 0%;
+        padding-top: 17px;
+        padding-bottom: 5px;
+        margin: 0;
+        margin-left: -5px;
+    }
+
+    .main_header {
+        color: black;
+        background-color: white;
+        width: 95%;
+        height: auto;
+        padding-top: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        border: 4px solid rgb(65, 65, 248);
+        margin-left: 1.7%;
+        margin-top: 30px;
+    }
+
+    .main_header>img {
+        height: 22rem;
+        width: 70%;
+        padding: 7px 5px;
+        align-self: center;
+        margin-top: 1rem;
+        margin: 27px 15px;;
+    }
+
+    .main_header>h1 {
+        font-size: 27px;
+        padding: 7px 5px;
+        align-self: center;
+        white-space: pre;
+        margin-top: 5rem;
+    }
+
+    .skills_section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .skills_section>img,
+    .skills_section>ul {
+        align-self: center;
+    }
+
+    .projects_div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .projects_div>video,
+    .projects_div>h1 {
+        width: 80%;
+        align-self: center;
+        border: none;
+    }
+
+    embed {
+        width: 70%;
+        height: 60rem;
+        margin-left: auto;
+        border: 4px solid rgb(65, 65, 248);
+    }
+}
+/* --------------------------media-query_code------------------------------------------ */

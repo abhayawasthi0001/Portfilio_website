@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio's website</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <nav class="main_nav">
+        <div class="left_div">
+            Abhay's Portfolio
+        </div>
+        <div class="right_div">
+            <ul class="ul_data" id="ul_data">
+                <li id="about">About</li>
+                <li id="skills">Skills</li>
+                <li id="projects">Project</li>
+                <li id="resume">Resume</li>
+                <li id="contact">Contact Me</li>
+            </ul>
+            
+        </div>
+        <svg class="three_line" id="three" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="#74C0FC" d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>
+        <svg class="cross" id="cross" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="#74C0FC" d="M376.6 84.5c11.3-13.6 9.5-33.8-4.1-45.1s-33.8-9.5-45.1 4.1L192 206 56.6 43.5C45.3 29.9 25.1 28.1 11.5 39.4S-3.9 70.9 7.4 84.5L150.3 256 7.4 427.5c-11.3 13.6-9.5 33.8 4.1 45.1s33.8 9.5 45.1-4.1L192 306 327.4 468.5c11.3 13.6 31.5 15.4 45.1 4.1s15.4-31.5 4.1-45.1L233.7 256 376.6 84.5z"/></svg>
+    </nav>
+    <header class="main_header">
+        <h1>Hello, My name is Abhay Awasthi<br>and I am a passionate<br><b id="changer"></b></h1>
+        <img src="images&videos\image1.jpeg" alt="Nothing!">
+    </header>
+    <section class="About">
+        <h1><b>About Me</b></h1>
+        <p>Hello, my name is Abhay Awasthi. I am currently pursuing a B.Voc. course in Software Development at National Post Graduate College, Lucknow. Over the past two years, I have gained extensive experience in web development and data analysis. Driven by my passion for coding, I have independently learned and mastered various skills in these fields.</p>
+    </section>
+    <h1 class="skills_h1"><b>Skills</b></h1>
+    <section class="skills_section">        
+        <ul>
+            <li>Front-end Web Development(Using HTML,CSS,JS)</li>
+            <li>Back-end Web Development(Using Express.js, Mongoose, Mongodb, API's)</li>
+            <li>Data Analysis using Python (Pandas, NumPy, Matplotlib, Seaborn libraries)</li>
+            <li>SQL Database</li>
+            <li>MS Office</li>
+            <li>Core Java</li>
+        </ul>
+        <img src="images&videos\skills.png" alt="skills">
+    </section>
+    <section class="projects">
+        <h1 class="project_top_heading">Projects</h1>
+        <h1 class="project_heading">#1. Apna College Website Clone</h1>
+        <div class="projects_div">
+            <h1>Grateful for the Journey: Unveiling My First Website Clone - Apna College! With dedication, HTML, CSS, and JS, I've created a front end replica of this educational hub offering courses in Full Stack Web Development, D.S.A. , AI, and ML. This project marks a significant step towards my goal of becoming a Full Stack Web Developer.🌐💻 </h1>
+            <video controls width="250">
+                <source src="images&videos\apna_college_website_clone.mp4" type="video/webm" />
+              
+                <source src="images&videos\apna_college_website_clone.mp4" type="video/mp4" />
+              
+                Download the
+                <a href="images&videos\apna_college_website_clone.mp4">WEBM</a>
+                or
+                <a href="images&videos\apna_college_website_clone.mp4">MP4</a>
+                video.
+              </video>          
+        </div>
+        <h1 class="project_heading">#2. Form With Admin Page</h1>
+        <div class="projects_div">
+            <h1>Excited to share a project I've been working on! I built a comprehensive user authentication system using a modern tech stack, including HTML, EJS, CSS, JavaScript, Express.js, Mongoose, and MongoDB.
+                In this project, I developed a user-friendly form for capturing usernames and passwords, ensuring secure data handling and storage. Additionally, I created an admin page to display all user data, providing a seamless interface for management and oversight.
+                Check out the screen recording where I walk through the entire setup, showcasing both the user interaction and the admin functionalities.</h1>
+            <video controls width="250">
+                <source src="images&videos\form.mp4" type="video/webm" />
+              
+                <source src="images&videos\form.mp4" type="video/mp4" />
+              
+                Download the
+                <a href="images&videos\form.mp4">WEBM</a>
+                or
+                <a href="images&videos\form.mp4">MP4</a>
+                video.
+              </video>          
+        </div>
+        <h1 class="project_heading">#3. YouTube Front Page Clone</h1>
+        <div class="projects_div">
+            <h1>TubeCloner: Reimagining YouTube with MongoDB
+                Presenting my latest creation: a YouTube clone built using HTML, CSS, JavaScript, EJS, Express, Mongoose, and MongoDB! 
+                This project mirrors the familiar YouTube interface, with all video data sourced directly from a MongoDB database. Each element, from video thumbnails to descriptions, is dynamically generated for a seamless viewing experience reminiscent of the original platform.
+                Key Components: Leveraging EJS templates and Express.js routes, I've established a robust back-end structure to efficiently fetch and display video content. MongoDB serves as the backbone, ensuring swift and reliable data retrieval.
+                Why this project?: It underscores the versatility and scalability of modern web development technologies. By integrating MongoDB with front-end tools, I've crafted a scale-able solution for hosting and delivering multimedia content.</h1>
+            <video controls width="250">
+                <source src="images&videos\youtube.mp4" type="video/webm" />
+              
+                <source src="images&videos\youtube.mp4" type="video/mp4" />
+              
+                Download the
+                <a href="images&videos\youtube.mp4">WEBM</a>
+                or
+                <a href="images&videos\youtube.mp4">MP4</a>
+                video.
+              </video>          
+        </div>
+        <h1 class="project_top_heading">I upload more projects on Linkdin...</h1>        
+    </section>
+    <section class="resume">
+        <center>
+            <h1 style="font-size: 37px; color: white;">Resume</h1>
+            <embed src="images&videos\AbhayAwasthi_Presents_resume.pdf" type="application/pdf" width="100%" height="600px" />
+        </center>
+    </section>
+    <footer>
+        <h1 class="project_top_heading">Contact Me!</h1>
+        <h2 class="contact">Mobile No. 9580042057</h2>
+        <h2 class="contact">Gmail Address:- abhayawasthi7.r@gmail.com</h2>
+        <center>
+            <div class="copyright">Copyright © 2024</div>
+        </center>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
